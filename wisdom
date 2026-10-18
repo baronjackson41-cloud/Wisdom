@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WISDOM 12</title>
+  <style>
+    :root {
+      --primary: #003366;
+      --secondary: #006699;
+      --accent: #ffcc00;
+      --light: #f9f9f9;
+      --dark: #222;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: var(--secondary);
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    #videos .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .video iframe {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WISDOM 12</h1>
+    <p>Hekima • Maarifa • Elimu • Motisha</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#videos">Videos</a>
+    <a href="#articles">Articles</a>
+    <a href="#community">Community</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Karibu WISDOM 12</h2>
+    <p>Hii ni tovuti rasmi ya channel ya YouTube inayoshiriki hekima, maarifa, elimu na motisha kwa watu wa rika zote.</p>
+  </section>
+
+  <section id="videos">
+    <h2>Video Zetu</h2>
+    <div class="video-grid">
+      <div class="video">
+        <h3>INJILI YA YESU KRISTO SURA YA 14</h3>
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="video">
+        <h3>INJILI YA YESU KRISTO SURA YA 13</h3>
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="articles">
+    <h2>Makala</h2>
+    <p>Hapa utapata tafsiri za Biblia, Injili ya Thomas, na makala za motisha.</p>
+  </section>
+
+  <section id="community">
+    <h2>Community</h2>
+    <p>Ungana na washiriki kujadili na kushirikiana kupitia maoni na mijadala.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Mawasiliano</h2>
+    <p>Email: wisdom12@example.com</p>
+    <p>YouTube: <a href="https://www.youtube.com/@wisdom12" target="_blank">@wisdom12</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 WISDOM 12. All rights reserved.</p>
+  </footer>
+</body>
+</html>
